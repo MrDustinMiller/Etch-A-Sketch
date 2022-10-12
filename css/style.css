@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5em;
+    max-height: 500px;
+}
+
+.container {
+    display: inline-grid;
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+    grid-template-columns: repeat(50, auto);  
+}
+
+.largeGrid {
+    display: inline-grid;
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+    grid-template-columns: repeat(80, 1fr );  
+}
+
+.smallGrid {
+    display: inline-grid;
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+    grid-template-columns: repeat(16, 1fr );  
+}
+
+.mediumGrid {
+    display: inline-grid;
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+    grid-template-columns: repeat(30, auto); 
+}
+
+.centerBtn {
+    text-align: center;
+}
+
+.gameBoard {
+    border: 1px solid black; 
+    min-height: 25px;
+    min-width: 25px;
+}
+
+.gameBoardLarge {
+    border: 1px solid black; 
+    min-height: 9px;
+    min-width: 9px;
+}
+
+.gameBoardMed {
+    border: 1px solid black; 
+    min-height: 15px;
+    min-width: 15px;
+}
