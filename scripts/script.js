@@ -4,7 +4,7 @@ const eraseBtn = document.querySelector(".eraseColor");
 const changeColorBtn = document.querySelector(".changeColor");
 const rndmColorBtn = document.querySelector(".randomColor");
 
-window.addEventListener("pageshow", createGrid(16, 16));
+createGrid(16, 16);
 
 function createGrid(col, rows) {
   for (let i = 0; i < col * rows; i++) {
@@ -82,6 +82,7 @@ resizeBtn.addEventListener("click", () => {
   } else if (size < 0) {
     size = prompt("Sorry but thats too low, choose a number higher than 0!");
   } else {
+    //IF NAN ALSO
     deleteGrid();
     createGrid(size, size);
   }
@@ -90,3 +91,5 @@ resizeBtn.addEventListener("click", () => {
 eraseBtn.addEventListener("click", eraseSqaure);
 changeColorBtn.addEventListener("click", changeColor);
 rndmColorBtn.addEventListener("click", rndmColor);
+
+//WHEN CHAINGING GRID SIZE WITH HAVING THE  PPAGE REFRESH IT RESETS THE GRID TO 16X16 FIX THISD
