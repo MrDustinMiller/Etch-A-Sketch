@@ -50,7 +50,11 @@ h1 {
     bottom: 0;
     display: flex;
     justify-content: space-around;
-    
+   
+}
+.buttons.buttons>* {
+    box-shadow: 
+    5px 5px 10px 0 rgba(0, 0, 0, 1);
 }
 
 .shake {
