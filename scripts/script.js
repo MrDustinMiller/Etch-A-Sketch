@@ -91,5 +91,3 @@ resizeBtn.addEventListener("click", () => {
 eraseBtn.addEventListener("click", eraseSqaure);
 changeColorBtn.addEventListener("click", changeColor);
 rndmColorBtn.addEventListener("click", rndmColor);
-
-//WHEN CHAINGING GRID SIZE WITH HAVING THE  PPAGE REFRESH IT RESETS THE GRID TO 16X16 FIX THISD
