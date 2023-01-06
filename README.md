@@ -11,7 +11,11 @@
 - JavaScript
 - HTML
 - CSS
-
+  
+ ## Live Demo
+ 
+ - [Demo](https://mrdustinmiller.github.io/Etch-A-Sketch/)
+  
 ## 🤝 Support
 
 Give a ⭐️ if you like this project!
